@@ -1,0 +1,199 @@
+/*potrait*/
+@media (min-width:320px) and (max-width:575.98px) {
+   /*header start*/
+    .header{
+        padding-top:10px;
+        padding-bottom:50px;
+    }
+    .menu{
+        background: #ff9800;
+        border-radius: 30px;
+        text-align: right;
+        padding: 0 25px;
+         margin-top:15px;
+    }
+    .banner_content{
+        text-align: center;
+        margin-top:20px;
+    }  
+   .banner_content h6 {
+      font-size:16px;
+      padding:4px
+      }
+       .banner_content h1 {
+           font-size:55px;
+   
+   
+       }
+       .banner_content h3 {
+           font-size:27px;
+       }
+       /*header end*/
+
+          /*services start*/
+          .service_content h3{
+            font-size:17px;
+        }
+          .service_content h1{
+          font-size:20px;
+        }
+          .right_top {
+            margin: 30px 0px;
+        }
+    
+           /*services end*/
+           /*product start*/
+           .single{
+               margin:20px 0px;
+           }
+           /*product end*/
+
+         /*upcoming start*/
+         .custom_ind{
+             justify-content: center;
+            margin-bottom: 1px;  
+         }
+
+         /*upcoming end*/
+         /*footer start*/
+         .footer_bg{
+             margin-bottom: 0;
+         }
+         .icons ul{
+            text-align: center;
+        }
+        .info ul li{
+            text-align: center;
+        }
+        /*footer end*/
+}
+/*lanscape*/
+@media (min-width:576px) and (max-width:767.98px) {
+    /*header start*/
+    .header{
+        padding-top: 20px;
+    }
+
+    .menu{
+        background: #ff9800;
+        border-radius: 30px;
+        text-align: right;
+        padding: 0 25px;
+        margin-top:15px;
+    }
+    .banner_content{
+        text-align: center;
+        margin-top:30px;
+    }  
+   .banner_content h6 {
+          font-size:16px;
+        padding:4px
+      }
+       .banner_content h1 {
+           font-size:62px;
+   
+   
+       }
+       .banner_content h3 {
+           font-size:30px;
+       }
+       /*header end*/
+       /*services start*/
+
+       .right_top {
+        margin: 30px 0px;
+    }
+
+       /*services end*/
+                /*product start*/
+                .single{
+                    margin:25px 0px;
+                }
+                /*product end*/
+
+                 /*upcoming start*/
+         .custom_ind{
+            justify-content: center;
+            margin-bottom: 1px;
+           
+        }
+        /*upcoming end*/
+             /*footer start*/
+             .footer_bg{
+                margin-bottom: 0;
+            }
+            .icons ul{
+               text-align: center;
+           }
+           .info ul li{
+               text-align: center;
+           }
+           /*footer end*/
+}
+/*md*/
+@media (min-width:768px) and (max-width:991.98px) {
+    /*header start*/
+  .banner_content{
+      margin-top:50px;
+  }  
+ .banner_content h6 {
+        font-size:16px;
+    padding:4px
+    }
+     .banner_content h1 {
+         font-size:62px;
+ 
+ 
+     }
+     .banner_content h3 {
+         font-size:30px;
+     }
+     /*header end*/
+     /*services start*/
+     .service_content h3{
+         font-size:18px;
+     }
+     .service_content h1{
+       font-size:23px;
+     }
+     .right_top {
+        margin-bottom: 25px;
+    }
+
+     /*services end*/
+         /*upcoming product start*/
+    .up_content{
+        margin-top:0px;
+    }
+    .custom_ind{
+        justify-content: center;
+        
+    }
+        /*upcoming product end*/
+        .footer_bg{
+            margin-bottom: 20px;
+        }
+}
+/*lg*/
+@media (min-width:992px) and (max-width:1199px) {
+    
+    /*upcoming product start*/
+    .up_content{
+        margin-top:0px;
+    }
+    
+        /*upcoming product end*/
+        .footer_bg{
+            margin-bottom: 30px;
+        }
+}
+/*xl*/
+@media (min-width:1200px) and (max-width:1400px) {
+    /*upcoming product start*/
+.up_content{
+    margin-top:50px;
+}
+
+    /*upcoming product end*/
+}
+

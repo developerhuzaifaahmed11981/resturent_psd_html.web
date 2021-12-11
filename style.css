@@ -1,0 +1,247 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.custom_container{
+    width:94%;
+}
+/*header*/
+header{
+    background-image: url('images/bg.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.header{
+    padding-top:25px;
+}
+.menu ul{
+   margin-left: auto;
+}
+.menu ul li a {
+font-size:22px;
+font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
+font-family: 'Bebas Neue', cursive;
+color: #3d2514 !important;
+
+}
+.menu ul li:last-child a{
+    padding-right: 0!important;
+}
+/*banner start*/
+.banner{
+
+}
+.banner_content {
+    margin-top: 155px;
+}
+.banner_content h6 {
+    font-size: 18px;
+    color: #3d2514;
+    text-transform: uppercase;
+    border: 4px dashed #3d2514;
+    padding: 2px 15px;
+    display: inline-block;
+    font-family: 'Alfa Slab One', cursive;
+    margin:0 0;
+   
+}
+.banner_content h1{
+    font-size:114px;
+    color:#3d2514;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 3px 2px 1px white;
+    margin:20px 0 10px;
+    
+}.banner_content h3{
+    font-size:56px;
+    color:#3d2514;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 3px 2px 1px white;
+    margin:0 0;
+}
+/*banner end*/
+/*services start*/
+.service{
+    padding:80px 0 70px;
+}
+.service_content {
+    color: white;
+    position: absolute;
+    padding: 15px;
+}
+.service_content h3{
+    font-size:20px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    
+}
+.service_content h1{
+    font-size:30px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+}
+.right_top {
+    margin-bottom: 34px;
+}
+
+/*services end*/
+/*product start*/
+.product{
+    padding-bottom: 70px;
+}
+.pro_button {
+    width: 209px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffc045;
+    font-family: 'Bebas Neue', cursive;
+}
+.product_title{
+    margin:50px 0;
+}
+.product_title h1{
+    color:#3d2514;
+    text-transform: uppercase;
+    font-size:40px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.product_title p{
+    color:#3d2514;
+}
+
+.single{
+text-align: center;
+}
+.single img{
+    height:250px!important;
+    object-fit: cover;
+}
+.single h1{
+    color:#3d2514;
+    font-family: 'Bebas Neue', cursive;
+}
+.single p{
+color:#3d2514;
+}
+
+/*product end*/
+
+/*upcoming products start*/
+.upcoming{
+    padding:40px 0px;
+}
+.up_content {
+    margin-top: 80px;
+    padding: 21px 27px;
+}
+.up_content h4{
+    color:#a4b0be;
+    text-transform: uppercase;
+    
+}
+.up_content h1{
+    color:#3d2514;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+}
+.up_content p{
+    color:#57606f;
+}
+.up_image img{
+    border:20px solid white;
+}
+.custom_shadow {
+    box-shadow: 13px 11px 9px #dfe4ea;
+}
+.custom_ind{
+    justify-content: start;
+    margin-left: 2%;
+}
+.custom_ind button{
+    width:20px!important;
+    height:20px!important;
+    border-radius: 50%;
+    background-color: #ffc045!important;
+}
+/*upcoming product end*/
+/*contact start*/
+.contact{
+    background-image: url('images/contact.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 170px 0 170px;
+}
+.contact_title h3{
+color:#3d2514;
+font-family: 'Lato', sans-serif;
+text-transform: uppercase;
+}
+.contact_title h1{
+    color:#3d2514;
+    font-family: 'Alfa Slab One', cursive;
+text-transform: uppercase;
+}
+.contact_btn{
+    height: 38px;
+    border: none;
+    border-radius: 8px;
+    width:100%;
+    background:#ff6348;
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+}
+/*contact end*/
+/*footer start*/
+
+.footer_bg{
+    position: relative;
+    background-image: url('images/footer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:25px 10px;
+    color:white; 
+margin-bottom: 50px;
+}
+footer ul li {
+    text-align: end;
+    margin: 12px 1px;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+}
+.icons ul{
+    text-align: end;
+}
+.icons ul li {
+    display: inline-block;
+    color: black;
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding: 3px 2px;
+    transition:0.3s;
+}
+.icons ul li:hover{
+    background-color: #ffc045;
+    color:white;
+}
+.bottom{
+    margin-top:40px;
+}
+.info ul li{
+    padding-left:0!important;
+    text-align: end;
+}
+/*footer end*/
